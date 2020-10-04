@@ -59,6 +59,7 @@ p{ padding:0px; margin:0px; }
 
 .awesome-right p a{ text-decoration:none; padding:14px 30px; border-radius:30px; background-color:#2500f9; color:#fff; font-weight:bold; font-size:11px; margin-top:20px; display:inline-block;}
 .awesome-right p a:hover{ background-color:#2500f9; color:#fff;}
+.awesome-right img{ width:150px; }
 
 .awesome-part{ width:100%; float:left; margin-top:20px; }
 .awesome-part-left{ width:100px; padding:5px; float:left; margin-top:10px; text-align:center;}
@@ -96,12 +97,12 @@ p{ padding:0px; margin:0px; }
 
 
 
-.b-top{ border-top:1px solid #b9b9b8; margin-top:50px;}
+.b-top{ border-top:1px solid #f4f4f4; margin-top:50px;}
 /*.b-bot{ border-bottom:1px solid #b9b9b8; margin-bottom:50px;}*/
 
 .choose-title{ text-align:center; width:100%;}
-.choose-title h1{ display:block; width:100%; font-size:28px; line-height:35px; border-bottom:none; color:#242f51; margin:60px 0px 0px 0px;}
-.choose-title h1 span{ font-size:14px; line-height:22px; color:#616368; display:block; margin-top:20px; margin-bottom:15px;}
+.choose-title h1{ display:block; width:100%; font-size:28px; line-height:35px; border-bottom:none; color:#242f51; margin:60px 0px 0px 0px; font-weight:bold;}
+.choose-title h1 span{ font-size:14px; line-height:22px; color:#616368; display:block; margin-top:20px; margin-bottom:15px; font-weight:normal;}
 /*.choose-title p{ width:100%; font-size:18px; line-height:27px; margin-top:50px;}*/
 
 .choose-top{ width:100%; padding:5px; float:left; text-align:center;}
@@ -112,13 +113,156 @@ p{ padding:0px; margin:0px; }
 .choose-bot p{ font-size:14px; line-height:22px; color:#616368;}
 
 
-.ultimate-bg{ background-image:url(../img/ultimate-mobile.png); background-repeat: no-repeat; background-position:top right; }
+.ultimate-bg{ background-image:url(../img/ultimate-mobile.png); background-repeat: no-repeat; background-position:top right; background-size:50%;}
 
 @media only screen and (max-width:992px){
 .ultimate-bg{ background-image:none;}
-
 }
 
+
+
+
+.meet-clients-bg{ background-image:url(../img/meet-clients.png); background-repeat: no-repeat; background-position:bottom left; background-size:50%;}
+
+@media only screen and (max-width:992px){
+.meet-clients-bg{ background-image:none;}
+}
+
+
+.testi-custom{ position:static; border:0px !important; }
+.testi-content{ text-align:left }
+
+.testi-content-top{ width:100%; float:left; }
+.testi-rating{ font-size:20px; color:#ffcc00;}
+.testi-title{ text-align:left; }
+.testi-title h4{ font-size:18px; line-height:24px; margin-bottom:10px; font-weight:bold; color:#242f51;}
+.testi-title p{ font-size:14px; line-height:22px; color:#616368;}
+
+.testi-content-bot{ width:100%; float:left; margin-top:40px;}
+.testi-content-bot img{ float:left; width:70px; height:auto; margin-right:20px;}
+.testi-content-bot p{ float:left; font-size:16px; line-height:24px; margin-bottom:10px; font-weight:bold; color:#242f51; margin-top:10px;}
+.testi-content-bot p span{ font-size:14px; line-height:22px; color:#616368;}
+
+
+
+
+.card {
+	margin: 0 auto;
+	border: none;
+}
+.card .carousel-item {
+	min-height: 190px;
+}
+.card .carousel-caption {
+	padding: 0;
+	right: 15px;
+	left: 15px;
+	top: 15px;
+	color: #3d3d3d;
+	border: 1px solid #ccc;
+	min-height:175px;
+	padding: 15px;
+}
+.card .carousel-caption .col-sm-3 {
+	display: flex;
+	align-items: center;
+}
+.card .carousel-caption .col-sm-9 {
+	text-align: left;
+}
+.card .carousel-control-prev, .card .carousel-control-next {
+	color: #3d3d3d !important;
+	opacity: 1 !important; float:right;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon {
+	background-image: none;
+	color: #2500f9;
+	font-size: 14px;
+	background-color: #cd3a54;
+	height: 40px;
+	line-height: 40px;
+	width: 40px;
+	border:1px solid #ccc; background:#fff; border-radius:25px;
+
+}
+.carousel-control-prev-icon:hover, .carousel-control-next-icon:hover {
+	opacity: 0.85; background:#ccc;
+}
+.carousel-control-prev {
+	left: 76%;
+	top: 110%;
+}
+.carousel-control-next {
+	right: 0%;
+	top: 110%;
+}
+.midline {
+	width: 60px;
+	border-top: 1px solid #d43025;
+}
+.carousel-caption h2 {
+	font-size: 14px;
+}
+.carousel-caption h2 span {
+	color: #cd3a54;
+}
+ @media (min-width: 320px) and (max-width: 575px) {
+.carousel-caption {
+	position: relative;
+}
+.card .carousel-caption {
+	left: 0;
+	top: 0;
+	margin-bottom: 15px;
+}
+.card .carousel-caption img {
+	margin: 0 auto;
+}
+.carousel-control-prev {
+	left: 35%;
+	top: 105%;
+}
+.carousel-control-next {
+	right: 35%;
+	top: 105%;
+}
+.card .carousel-caption h3 {
+	margin-top: 0;
+	font-size: 16px;
+	font-weight: 700;
+}
+}
+@media (min-width: 576px) and (max-width: 767px) {
+.carousel-caption {
+	position: relative;
+}
+.card .carousel-caption {
+	left: 0;
+	top: 0;
+	margin-bottom: 15px;
+}
+.card .carousel-caption img {
+	margin: 0 auto;
+}
+.card .carousel-caption h3, .card .carousel-caption small {
+	text-align: center;
+}
+.carousel-control-prev {
+	left: 35%;
+	top: 105%;
+}
+.carousel-control-next {
+	right: 35%;
+	top: 105%;
+}
+}
+@media (min-width: 767px) and (max-width: 991px) {
+.card .carousel-caption h3 {
+	margin-top: 0;
+	font-size: 16px;
+	font-weight: 700;
+}
+}
 
 
 
@@ -140,12 +284,25 @@ p{ padding:0px; margin:0px; }
 
 
 
-.f-top-bg{ background-image:url(../img/download-app-bg.png); background-repeat: no-repeat; background-position:top right; }
+.f-top-bg{ background-image:url(../img/download-app-bg.png); background-repeat: no-repeat; background-position:top right; background-size:50%; }
 
 @media only screen and (max-width:992px){
 .f-top-bg{ background-image:none;}
 
 }
+
+
+
+.frequentyl-accrodionn{ width:100%; float:left; margin:0px auto;  padding-left:15%; padding-right:15%;}
+.frequentyl-accrodionn .card{ margin-top:10px; border-radius:inherit; border:none;}
+.frequentyl-accrodionn .card .card-header{ border:none; border-radius:none; background:#f5f7fa; padding:0px;}
+.frequentyl-accrodionn .card .card-header button.btn.btn-link{ background:#f5f7fa; border-radius:0px; width:100%; text-align:left; padding:10px 30px; font-size:16px; font-weight:bold; 
+	color:#242f51; text-decoration:none;}
+.frequentyl-accrodionn .card .card-header button.btn.btn-link i{ float:right;}
+.frequentyl-accrodionn .card .card-header button.btn.btn-link:hover{ text-decoration:none; }
+.frequentyl-accrodionn .card .card-body{ background:#f5f7fa; font-size:14px;  padding:5px 30px 10px 30px;}
+
+
 
 
 
